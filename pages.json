@@ -1,0 +1,91 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "谷粒学院"
+			}
+		}, 
+		{
+			"path": "pages/course/course",
+			"style": {
+				"navigationBarTitleText": "课程",
+				"enablePullDownRefresh": false
+			}
+		}, 
+		{
+			"path": "pages/course/courseFront",
+			"style": {
+				"navigationBarTitleText": "前端课程",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/course/courseDetail",
+			"style": {
+				"navigationBarTitleText": "课程详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/teacher/teacher",
+			"style": {
+				"navigationBarTitleText": "讲师",
+				"enablePullDownRefresh": false
+			}
+		}, 
+		{
+			"path": "pages/teacher/teacherDetail",
+			"style": {
+				"navigationBarTitleText": "讲师详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mime/mime",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "谷粒学院",
+		"navigationBarBackgroundColor": "#43bc60",
+		"backgroundColor": "#43bc60"
+	},
+	"tabBar":{
+		"selectedColor": "#000000",
+		"backgroundColor": "#43bc60",
+		"borderStyle": "#43bc60",
+		"color":"#333333",
+		"list":[
+			{
+				"text":"主页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/icon/home.png",
+				"selectedIconPath":"static/icon/home_fill.png"
+			},
+			{
+				"text":"课程",
+				"pagePath":"pages/course/course",
+				"iconPath":"static/icon/course.png",
+				"selectedIconPath":"static/icon/course_fill.png"
+			},
+			{
+				"text":"讲师",
+				"pagePath":"pages/teacher/teacher",
+				"iconPath":"static/icon/teacher.png",
+				"selectedIconPath":"static/icon/teacher_fill.png"
+			},
+			{
+				"text":"我的",
+				"pagePath":"pages/mime/mime",
+				"iconPath":"static/icon/my.png",
+				"selectedIconPath":"static/icon/my_fill.png"
+			}
+		]
+	}
+}
